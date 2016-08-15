@@ -19,21 +19,10 @@ $(document).ready(function(){
 
   $(".button2").click(function(){
     var userInputs = ['fname', 'lname', 'fav1', 'fav2', 'fav3'];
-
-
-    userInputs.forEach(function(string){
-      var userInputVar = $("#"+string).val();
-      $(".putArrayHere").append('<li class="newClass">'+userInputVar+'</li>');
-
-      // if .text instead of append .. it'll write <li class+"newClass">"input#fav3"<li>
-      // instead of creating a list like when using append!
+    userInputs.forEach(function(userInput){
+    // var userInputVar = $("#"+userInput).val(); instead of write this line,
+    // can also put the whole $ inplace of userInputVar on line 25
+    $(".putArrayHere").append('<li>'+$("#"+userInput).val()+'</li>');
     });
-
-
-
   });
 });
-
-  var myNewFunction = function (Paremeter) {
-  var theVar = parameter;
-}

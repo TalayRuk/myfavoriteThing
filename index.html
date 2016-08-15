@@ -14,95 +14,18 @@
 
   </head>
   <body>
-    <div class="hero-unit ">
-    </div>
     <div class="container">
-      <ul class="nav nav-pills">
-        <li role="presentation" ><a href="#">Celebrity Match</a></li>
-        <li role="presentation" class="active"><a href="#">Dating Site</a></li>
-        <li role="presentation"><a href="#">Food and Drink</a></li>
+      <form class="">
+        <p><input type="text" id="fname" placeholder="First Name"></p>
+        <p><input type="text" id="lname" placeholder="Last Name"></p>
+        <p><input type="text" id="fav1" placeholder="Favorite Thing 1"></p>
+        <p><input type="text" id="fav2" placeholder="Favorite Thing 2"></p>
+        <p><input type="text" id="fav3" placeholder="Favorite Thing 3"></p>
+        <button type="button" class="btn btn-primary button1">click me for one way!</button>
+        <button type="button" class="btn btn-primary button2">click me for second way!</button>
+      </form>
+      <ul class="putArrayHere">
       </ul>
-      <h1 class="text-center">Celebrity Match</h1>
-      <h2 class="text-center smallTitle">Find your best celebrity match</h2>
-      <form class="form-horizontal">
-        <h3>Your Info:</h3>
-        <div class="form-group">
-          <label for="name" class="col-sm-2 control-label">Your Name</label>
-          <div class="col-sm-4">
-            <input type="text" class="form-control" id="name" placeholder="Name">
-          </div>
-        </div>
-        <h3>Your Preference:</h3>
-        <div class="form-group">
-          <label for="sexUser" class="col-sm-2 control-label">Your Sex</label>
-          <label class="checkbox-inline">
-            <input type="radio" name="sexUser" value="male">Male
-          </label>
-          <label class="checkbox-inline">
-            <input type="radio" name="sexUser" value="female">Female
-          </label>
-          <label class="checkbox-inline disabled">
-            <input type="radio" name="sexUser" value="other" disabled>Other</input> (currently disabled)
-          </label>
-        </div>
-        <div class="form-group">
-          <label for="sexUser" class="col-sm-2 control-label">Your Sex Preference</label>
-          <label class="checkbox-inline">
-            <input type="radio" name="sexWant" value="male">Male
-          </label>
-          <label class="checkbox-inline">
-            <input type="radio" name="sexWant" value="female">Female
-          </label>
-          <label class="checkbox-inline disabled">
-            <input type="radio" name="sexWant" value="other" disabled>Other (currently disabled)
-          </label>
-        </div>
-        <div class="form-group">
-          <label for="sexUser" class="col-sm-2 control-label">As young as:</label>
-          <div class="col-sm-2">
-            <select class="form-control ageWantYoung">
-              <script type="text/javascript">ageWhileLoopYoung();</script>
-            </select>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="sexUser" class="col-sm-2 control-label">As old as:</label>
-          <div class="col-sm-2">
-            <select class="form-control ageWantOld">
-              <script type="text/javascript">ageWhileLoopYoung();</script>
-            </select>
-          </div>
-        </div>
-        <div class="form-group">
-          <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-default center-block submitIt">Submit</button>
-          </div>
-        </div>
-
-        <!-- Hidden celebrity Info -->
-      <hr class="hideFirst">
-      <h3 class="hideFirst"> Your Results:</h3>
-      <h3 class="name">Welcome, <span class="name"></span></h3>
-      <h2 class="text-danger"></h2>
-
-      <div class="row justin">
-        <div class="col-sm-3"><img class="img-responsive center-block celebImg"src="http://i.telegraph.co.uk/multimedia/archive/02510/justin2_2510378b.jpg"></div>
-        <div class="col-sm-4"><h2>Justin Timberlake</h2><h3><small>is</small> Male &#183; <small>wants</small> Female &#183; 32 <small>age</small></h3></div>
-      </div>
-      <div class="row taylor">
-        <div class="col-sm-3"><img class="img-responsive center-block celebImg"src="http://img2.timeinc.net/people/i/2010/galleries/bestquotes/101101/taylor-swift.jpg"></div>
-        <div class="col-sm-4"><h2>Taylor Swift</h2><h3><small>is</small> Female &#183; <small>wants</small> Male &#183; 27 <small>age</small></h3></div>
-      </div>
-      <div class="row anderson">
-        <div class="col-sm-3"><img class="img-responsive center-block celebImg"src="http://feelgrafix.com/data_images/out/18/923982-anderson-cooper.jpg"></div>
-        <div class="col-sm-4"><h2>Anderson Cooper</h2><h3><small>is</small> Male &#183; <small>wants</small> Male &#183; 49 <small>age</small></h3></div>
-      </div>
-      <div class="row ellen">
-        <div class="col-sm-3"><img class="img-responsive center-block celebImg"src="http://cdn2.thr.com/sites/default/files/2013/08/ellen.jpg"></div>
-        <div class="col-sm-4"><h2>Ellen DeGeneres</h2><h3><small>is</small> Female &#183; <small>wants</small> Female &#183; 58 <small>age</small></h3></div>
-      </div>
-
-      </div>
     </div>
   </body>
 </html>

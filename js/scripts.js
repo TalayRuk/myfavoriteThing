@@ -26,3 +26,19 @@ $(document).ready(function(){
     });
   });
 });
+
+
+
+Write a loop to multiply an arbitrary amount of numbers
+
+
+$(document).ready(function(){
+var total = 0;
+var bricks = [1,2,3,4,5,6,7,8,9]
+bricks.forEach(function(brick) {
+  total += brick;
+  // (total->0)+1=1(<--1 became new total),1+2=3,3+3=6, 6+4=10, 10+5=15, ...
+  // ..., 36+9= 45
+});
+alert(total);
+});

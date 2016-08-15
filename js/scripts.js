@@ -24,6 +24,9 @@ $(document).ready(function(){
     userInputs.forEach(function(string){
       var userInputVar = $("#"+string).val();
       $(".putArrayHere").append('<li class="newClass">'+userInputVar+'</li>');
+
+      // if .text instead of append .. it'll write <li class+"newClass">"input#fav3"<li>
+      // instead of creating a list like when using append!
     });
 
 
